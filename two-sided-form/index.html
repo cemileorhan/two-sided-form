@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Sided Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <main>
+            <div class="sign-up">
+                <span>Not a member?</span>
+                <button class="btn-sign">SIGN UP</button>
+            </div>
+
+            <div class="log-in">
+                <span>Already have an account?</span>
+                <button class="btn-log">LOG IN</button>
+            </div>
+
+            <div class="back-layer">
+                <form action="" class="login-form active">
+                    <h2 class="login-label">Log In</h2>
+                    <input type="email" class="log-email" id="log-email" placeholder="Email">
+                    <input type="password" class="log-password" id="log-password" placeholder="Password">
+                    <button class="btn">LOG IN</button>
+                </form>
+
+                <form action="" class="signup-form">
+                    <h2 class="signup-label">Sign Up</h2>
+                    <input type="text" class="name" id="name" placeholder="Name">
+                    <input type="text" class="surname" id="surname" placeholder="Surname">
+                    <input type="email" class="sign-email" id="sign-email" placeholder="Email">
+                    <input type="password" class="sign-password" id="sign-password" placeholder="Password">
+                    <button class="btn">SIGN UP</button>
+                </form>
+            </div>
+
+        </main>
+</body>
+<script src="script.js"></script>
+</html>
